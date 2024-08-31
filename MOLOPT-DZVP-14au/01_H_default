@@ -1,0 +1,22 @@
+# CP2K MOLOPT basis as described in the paper:
+#
+# Gaussian basis sets for accurate calculations on molecular systems
+# in gas and condensed phases
+#
+# Joost VandeVondele and Juerg Hutter
+# J. Chem. Phys. 127, 114105 (2007)
+#
+# URL: http://link.aip.org/link/?JCP/127/114105
+# DOI: 10.1063/1.2770708
+#
+# Usage hint : 'NGRIDS 5' (section &MGRID) will deal more efficiently (2x speedup) with the diffuse nature of the basis.
+ H  DZVP-MOLOPT-GTH DZVP-MOLOPT-GTH-q1
+ 1
+ 2 0 1 7 2 1
+     11.478000339908  0.024916243200 -0.012512421400  0.024510918200
+      3.700758562763  0.079825490000 -0.056449071100  0.058140794100
+      1.446884268432  0.128862675300  0.011242684700  0.444709498500
+      0.716814589696  0.379448894600 -0.418587548300  0.646207973100
+      0.247918564176  0.324552432600  0.590363216700  0.803385018200
+      0.066918004004  0.037148121400  0.438703133000  0.892971208700
+      0.021708243634 -0.001125195500 -0.059693171300  0.120101316500
